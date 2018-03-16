@@ -16,5 +16,20 @@ namespace practica_1
         {
             InitializeComponent();
         }
+
+        private void productosBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.productosBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.postgresDataSet);
+
+        }
+
+        private void productos2Form2_Load(object sender, EventArgs e)
+        {
+            // TODO: esta línea de código carga datos en la tabla 'postgresDataSet.productos' Puede moverla o quitarla según sea necesario.
+            this.productosTableAdapter.Fill(this.postgresDataSet.productos);
+
+        }
     }
 }

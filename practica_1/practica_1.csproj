@@ -57,21 +57,48 @@
     <Compile Include="categoriasForm2.Designer.cs">
       <DependentUpon>categoriasForm2.cs</DependentUpon>
     </Compile>
+    <Compile Include="entradasForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="entradasForm2.Designer.cs">
+      <DependentUpon>entradasForm2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="inventarios1Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventarios1Form2.Designer.cs">
+      <DependentUpon>inventarios1Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="postgresDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>postgresDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="productos2Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="productos2Form2.Designer.cs">
+      <DependentUpon>productos2Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="categoriasForm2.resx">
       <DependentUpon>categoriasForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entradasForm2.resx">
+      <DependentUpon>entradasForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inventarios1Form2.resx">
+      <DependentUpon>inventarios1Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="productos2Form2.resx">
+      <DependentUpon>productos2Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
